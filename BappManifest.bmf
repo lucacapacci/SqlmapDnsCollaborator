@@ -1,0 +1,12 @@
+Uuid: e616dc27bf7a4c6598cfeeb70d5ca81c
+ExtensionType: 1
+Name: SQLMap DNS Collaborator
+RepoName: sqlmap-dns-collaborator
+ScreenVersion: 1.0
+SerialVersion: 2
+MinPlatformVersion: 0
+ProOnly: True
+Author: Luca Capacci
+ShortDescription: Helps you perform DNS exfiltration with Sqlmap with zero configuration needed.
+EntryPoint: build/libs/SqlmapDnsCollaborator-all.jar
+BuildCommand: ./gradlew fatJar
